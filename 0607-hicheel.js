@@ -1,4 +1,3 @@
-
 // const week = "Даваа";
 // const week = "Мягмар";
 // const week = "Лхавга";
@@ -7,7 +6,7 @@
 // const week = "Бямба";
 // const week = "Ням";
 
-"Таны оруулсан утга алдаатай байна";
+// "Таны оруулсан утга алдаатай байна";
 
 // let week = 8;
 
@@ -25,7 +24,7 @@
 // else if (week > 3 && week < 5) {
 //   let week = "Пүрэв";
 //   console.log(week);
-// }  
+// }
 // else if (week > 4 && week < 6) {
 //     let week = "Баасан";
 //     console.log(week);
@@ -42,7 +41,7 @@
 //         console.log(week);
 //       }
 
-//////////////////////////////////////////////////////////    
+//////////////////////////////////////////////////////////
 
 // let day = 2;
 // if (day == 1) {
@@ -56,7 +55,7 @@
 
 /////////////////////////////////////////////////////////////
 
-// 2. Гараас дүнгээ оруулах үед (1-100-ийн хооронд) 
+// 2. Гараас дүнгээ оруулах үед (1-100-ийн хооронд)
 // тохирох үсгэн үнэлгээг буцаа. /A,B,C,D,F/
 
 // let num = 27;
@@ -72,97 +71,96 @@
 //   console.log(num);
 // } else if (num == 4) {
 //   let num = "D";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 5) {
 //   let num = "E";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 6) {
 //   let num = "F";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 7) {
 //   let num = "G";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 8) {
 //   let num = "H";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 9) {
 //   let num = "I";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 10) {
 //   let num = "J";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 11) {
 //   let num = "K";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 12) {
 //   let num = "L";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 13) {
 //   let num = "M";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 14) {
 //   let num = "N";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 15) {
 //   let num = "O";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 16) {
 //   let num = "P";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 17) {
 //   let num = "Q";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 18) {
 //   let num = "R";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 19) {
 //   let num = "S";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 20) {
 //   let num = "T";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 21) {
 //   let num = "U";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 22) {
 //   let num = "V";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 23) {
 //   let num = "W";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 24) {
 //   let num = "X";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 25) {
 //   let num = "Y";
-//   console.log(num); 
+//   console.log(num);
 // } else if (num == 26) {
 //   let num = "Z";
-//   console.log(num); 
+//   console.log(num);
 // } else { num = "Error! Try again!"
-//   console.log(num); 
+//   console.log(num);
 // }
-
 
 ////////////////////////////////////////////////////////////
 
 // 3. Хэрэв гараас оруулсан username нь 'admin' байвал 'Hello, Admin!',
-//  өөр username байх тохиолдолд 'Hello, ...!' цэгийн оронд 
+//  өөр username байх тохиолдолд 'Hello, ...!' цэгийн оронд
 //  тухайн хэрэглэгчийн username-г харуул.
 
 // let username = "admin";
 
 // if (username == admin) {
 //   console.log("Hello Admin!");
-// } else { 
+// } else {
 //   console.log("Hello, ...!")
 // }
 
 ////////////////////////////////////////////////////////////////
 
-// 4. Гараас оруулсан password зөвхөн 'password123' байх үед 
+// 4. Гараас оруулсан password зөвхөн 'password123' байх үед
 // хэрэглэгч амжилттай нэвтрэх бөгөөд нэвтэрсэн тохиолдолд 'Access granted!'
-//  гэж харуул. Хэрэв password алдаатай бол 'Enter the password:' гэсэн 
+//  гэж харуул. Хэрэв password алдаатай бол 'Enter the password:' гэсэн
 //  текстийг дахин харуул.
 
 // let password = prompt("Enter password")
@@ -171,13 +169,9 @@
 //   alert("Access granted!")
 // }
 
-
-
 // } else (){
 //   prompt("Wrong password, please try again!")
 // } alert("Access granted")
-
-
 
 // if (password === password123) {
 //   console.log("Access granted!")
@@ -185,12 +179,9 @@
 //   console.log("Enter the password: ")
 // } else { }
 
-
-
 //////////////////////////////////////////////////////////////
 
 // 5. 'Hello World' гэсэн текстийг 5 удаа хэвлэ.
-
 
 ///////////////////////////////////////////////////////////////
 
@@ -200,35 +191,24 @@
 
 // 1. 1-20 хүртэл тооны нийлбэрийг ол.
 
-let total = 0; 
-let num = 0;
-while (num <= 20) {
- let total = num + 1; 
-  
-} console.log(total);
-
-
-
-
-// const nums = [1, 1, 3];
 // let total = 0;
+// let num = 0;
 
-// for (let i = 0; i < nums.length; i++) {
-//     const num = nums[i];
-//     total += num;
-    
-// }  console.log(total);
-   
+// while (num <= 20) {
+// // 1, 2, 3, ..., 20
+//   total = total + num;
+//   num = num + 1; // num++
+// }
+// console.log(total);
+
 /////////////////////////////////////////////////////////////
 
-// 2. password нь 'pass1234' байх бөгөөд буруу хийх 3 
-// удаагийн боломж л байна. 
-// Зөв байх тохиолдолд 'Access granted!' гэж харагдах бол буруу оруулсан 
-// тохиолдолд 'Enter your password: ' гэж гарч ирнэ. Харин 3 удаа буруу 
+// 2. password нь 'pass1234' байх бөгөөд буруу хийх 3
+// удаагийн боломж л байна.
+// Зөв байх тохиолдолд 'Access granted!' гэж харагдах бол буруу оруулсан
+// тохиолдолд 'Enter your password: ' гэж гарч ирнэ. Харин 3 удаа буруу
 // оруулсан тохиолдолд 'Access denied!' гэж харагдана.
-
 
 //////////////////////////////////////////////////////////////
 
 // 3. Fibonacci sequence эхний 10 тоог хэвлэ.
-
