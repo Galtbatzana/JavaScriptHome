@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 0;
+        display: flex;
+      }
+
+      .red {
+        background-color: red;
+        width: 50vw;
+        height: 100vh;
+      }
+
+      .blue {
+        background-color: blue;
+        width: 50vw;
+        height: 100vh;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <script>
+      const red = document.getElementsByClassName("red")[0];
+      const blue = document.getElementsByClassName("blue")[0];
+
+      let redWidth = 50;
+      let blueWidth = 50;
+
+      red.onclick = changeToRedWidth;
+      blue.onclick = changeToBlueWidth;
+
+      function changeToRedWidth() {
+        redWidth++;
+        blueWidth--;
+        red.style.width = `${redWidth}vw`;
+        blue.style.width = `${blueWidth}vw`;
+      }
+
+      function changeToBlueWidth() {
+        redWidth--;
+        blueWidth++;
+        red.style.width = `${redWidth}vw`;
+        blue.style.width = `${blueWidth}vw`;
+      }
+    </script>
+  </body>
+</html>
